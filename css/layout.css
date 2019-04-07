@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;
+   padding-bottom: 30px;s
    text-align: center;
 }
 
@@ -207,9 +207,9 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 200px;
-   /* height: 120px; */
-   border-radius: 20%;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -793,7 +793,7 @@ call-to-action .button {
    padding-bottom: 102px;
    color: #636363;
 }
-#contact .section-head { margin-bottom: 0; }
+#contact .section-head { margin-bottom: 42px; }
 
 #contact a, #contact a:visited  { color: #11ABB0; }
 #contact a:hover, #contact a:focus { color: #fff; }
