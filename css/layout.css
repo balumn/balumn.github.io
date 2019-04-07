@@ -118,6 +118,7 @@ header .scrolldown a {
    transition: all .3s ease-in-out;
 }
 header .scrolldown a:hover { color: #11ABB0; }
+header a:hover { color: #11ABB0; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
