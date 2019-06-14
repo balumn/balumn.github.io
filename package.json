@@ -2,7 +2,7 @@
   "name": "balumn.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/balumn/balumn.github.io",
+  "homepage": "https://balumn.github.io",
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
