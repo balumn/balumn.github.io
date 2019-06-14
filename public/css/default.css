@@ -464,27 +464,26 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #11ABB0;
+   background-color: Transparent;
    display: inline-block;
+   border: 1px solid white !important;
 	text-decoration: none;
    letter-spacing: 0;
-   color: #fff;
 	padding: 12px 20px;
 	margin-bottom: 18px;
-   border: none;
    cursor: pointer;
    height: auto;
-
+   
    -webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
 	-ms-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
-
+   
    -moz-border-radius: 3px;
    -webkit-border-radius: 3px;
    -khtml-border-radius: 3px;
-   border-radius: 3px;
+   color: #fff;
 }
 
 .button:hover,
@@ -492,9 +491,16 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-   background: #3d4145;
-   color: #fff;
+   
+   color: #11ABB0;
 }
+.resume input[type="button"]:hover {
+   color: #11ABB0;
+}
+.resume input[type="button"]:active {
+   color: #11ABB0;
+}
+
 
 .button:active,
 button:active,
@@ -502,7 +508,7 @@ input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active {
    background: #3d4145;
-   color: #fff;
+   color: #11ABB0;
 }
 
 .button.full-width,

@@ -17,6 +17,8 @@ export default class Header extends Component {
                 <a href="mailto:balumn@ieee.org" target="_blank" rel="noopener noreferrer"><p>Feel free to contact me for work and suggestions</p></a>
                </div>
                <hr />
+               <br/>
+               <a className="button resum" target="_blank" rel="noopener noreferrer" href="resume.pdf"><i className="fa fa-download"/>&nbsp;&nbsp;Download</a>
             
                <ul className="social">
                   <li key="email">
