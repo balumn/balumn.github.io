@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 export default  class Resume extends Component {
   render() {
-    let resumeData = this.props.resumeData;
     return (
       <section id="resume">
 
@@ -12,13 +11,10 @@ export default  class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
-
                     <div className="row item">
                        <div className="twelve columns">
                           <h3>Viswayothi College of Engineering and Technology</h3>
-                          <p className="info">
-                          Computer Science and Engineering
-                          <span>&bull;</span> <em className="date">June 2019</em></p>
+                          <span>Computer Science and Engineering &nbsp;&bull;&nbsp;</span> <em className="date">June 2019</em>
                           <p>
                           Chairman : IEEE Student Branch VJCET( Feb 2018 - Feb 2019 ) <br />
                           Volunteer Secretary : College NSS unit 587 ( August 2017 - August 2018 )
@@ -93,28 +89,16 @@ export default  class Resume extends Component {
             <div className="three columns header-col">
                <h1><span>Skills</span></h1>
             </div>
-
             <div className="nine columns main-col">
-
-               <p>
-               {resumeData.skillsDescription}
-               </p>
-
    				<div className="bars">
-
    				   <ul className="skills">
-
                       <li><span className={"bar-expand html5"}></span><em>HTML5</em></li>
                       <li><span className={"bar-expand css"}></span><em>CSS</em></li>
                       <li><span className={"bar-expand react"}></span><em>ReactJS</em></li>
                       <li><span className={"bar-expand python"}></span><em>Python</em></li>
                       <li><span className={"bar-expand django"}></span><em>Python Django</em></li>
-
-
    					</ul>
-
    				</div>
-
    			</div>
 
          </div>

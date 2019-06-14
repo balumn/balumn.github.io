@@ -116,6 +116,13 @@ header .banner-text hr {
    }
 }
 
+.feel-work a{
+   text-decoration: none;
+   color: white;
+}
+.feel-work a:hover, .feel-work a:focus { color: #11ABB0; }
+
+
 /* header social links */
 header .social {
    margin: 24px 0;
