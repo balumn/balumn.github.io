@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -51,8 +51,8 @@ header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   width: 85%;
-   padding-bottom: 30px;s
+   width: 55%;
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -80,6 +80,40 @@ header .banner-text hr {
    margin: 18px auto 24px auto;
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
+}
+@media only screen and (min-width: 1500px) {
+
+   header {
+      position: relative;
+      height: 800px;
+      min-height: 500px;
+      width: 100%;
+      background: #161415 url(../images/background.jpg) no-repeat top center;
+      background-size: cover !important;
+      -webkit-background-size: cover !important;
+      text-align: center;
+      overflow: hidden;
+   }
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1000px) {
+
+   header {
+      position: relative;
+      min-height: 500px;
+      height: 100%;
+      background: #161415 url(../images/background.jpg) no-repeat left center;
+      background-size: cover !important;
+      -webkit-background-size: cover !important;
+      text-align: center;
+      overflow: hidden;
+   }
+   header .banner-text h1 {
+   font: 100px/1.5em 'opensans-bold', sans-serif;
+   margin: 0 0 18px 0;
+
+   }
 }
 
 /* header social links */
@@ -341,20 +375,31 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: wordpress 2s ease;
 }
 .css {
-  	width: 90%;
+  	width: 80%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 67%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.react {
+   width: 52%;
+   -moz-animation: react 2s ease;
+   -webkit-animation: react 2s ease;
 }
+.python {
+   width: 73%;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
+}
+.django {
+   width: 44%;
+   -moz-animation: django 2s ease;
+   -webkit-animation: django 2s ease;
+}
+
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
