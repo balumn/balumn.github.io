@@ -18,7 +18,7 @@ export default class Header extends Component {
                </div>
                <hr />
                <br/>
-               <a className="button resum" target="_blank" rel="noopener noreferrer" href="resume.pdf"><i className="fa fa-download"/>&nbsp;&nbsp;Download</a>
+               <a className="button resum" target="_blank" rel="noopener noreferrer" href="resume.pdf"><i className="fa fa-download"/>&nbsp;&nbsp;My Resume</a>
             
                <ul className="social">
                   <li key="email">

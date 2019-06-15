@@ -61,7 +61,7 @@ export default  class Resume extends Component {
                           Side Project
                           <span> &nbsp; &bull; &nbsp;</span> <em className="date">Oct 2018</em>
                           <ul>
-                            <li>An application that can access your Google Drive files and DropBox files at the same time.</li>
+                            <li>An application that can access Google Drive files and DropBox files at the same time</li>
                             <li>Developed using Python Django</li>
                             <li>Repo link: <a href="https://github.com/balumn/driveAPI" target="_blank" rel="noopener noreferrer">https://github.com/balumn/driveAPI</a></li>
                           </ul>
@@ -74,9 +74,9 @@ export default  class Resume extends Component {
                           Intern
                           <span> &nbsp; &bull; &nbsp;</span> <em className="date">May 2018 - July 2018</em>
                           <ul>
-                            <li>A mobile app which can capture media offline and upload it when the device is online.</li>
+                            <li>Developed a mobile app which can capture media offline and upload it when the device is online</li>
                             <li>Used Ionic framework over Apache Cordova</li>
-                            <li>UI was designed using Adobe Photoshop CC</li>
+                            <li>Designed UI using Adobe Photoshop CC</li>
                           </ul>
                        </div>
                     </div>

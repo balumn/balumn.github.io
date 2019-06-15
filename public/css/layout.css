@@ -101,8 +101,7 @@ header .banner-text hr {
 
    header {
       position: relative;
-      min-height: 500px;
-      height: 100%;
+      height: 800px !important;
       background: #161415 url(../images/background.jpg) no-repeat left center;
       background-size: cover !important;
       -webkit-background-size: cover !important;
@@ -320,6 +319,11 @@ ul#nav li.current a { color: #F06000; }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+
+
+.resum{
+   margin: -20px 0;
 }
 
 /*----------------------------------------------*/
