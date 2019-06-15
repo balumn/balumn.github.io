@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 export default class Header extends Component {
   render() {
-    let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
       
@@ -9,8 +8,8 @@ export default class Header extends Component {
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">I am Balu M N</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I'm a FullStack Developer and student.</h3>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I like to roam around various parts of frontend development as well as learn new technologies. I spend my leisure hours to learn, to share knowledge or to enjoy some yummy food.</h3>
+               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I'm a FullStack Developer and a freelancer.</h3>
+               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I like to experiment with frontend development and also learn new technologies. I love to spend my leisure hours learning, sharing knowledge or enjoying some yummy food.</h3>
             
                <hr/>
                <div className="feel-work">
