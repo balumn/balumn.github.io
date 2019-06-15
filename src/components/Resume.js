@@ -14,10 +14,10 @@ export default  class Resume extends Component {
                     <div className="row item">
                        <div className="twelve columns">
                           <h3>Viswayothi College of Engineering and Technology</h3>
-                          <span>Computer Science and Engineering &nbsp;&bull;&nbsp;</span> <em className="date">June 2019</em>
+                          <span>Computer Science and Engineering &nbsp;&bull;&nbsp;</span> <em className="date">June-2019</em>
                           <p>
-                          Chairman : IEEE Student Branch VJCET( Feb 2018 - Feb 2019 ) <br />
-                          Volunteer Secretary : College NSS unit 587 ( August 2017 - August 2018 )
+                          <b>Chairman</b> : IEEE Student Branch VJCET (Feb2018 - Feb2019) <br />
+                          <b>Volunteer Secretary</b> : College NSS unit 587 (August2017-August2018)
                           </p>
                        </div>
                     </div>

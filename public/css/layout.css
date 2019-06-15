@@ -329,8 +329,13 @@ ul#nav li.current a { color: #F06000; }
 
 
 .resum{
-   margin: -20px 0 10 0;
+   margin: -20px 0 20 0;
 }
+
+header hr {
+   border: 2px solid white;
+   border-radius: 5px;
+ }
 
 /*----------------------------------------------*/
 /*	Skill Bars
