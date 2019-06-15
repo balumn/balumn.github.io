@@ -94,14 +94,13 @@ header .banner-text hr {
       text-align: center;
       overflow: hidden;
    }
-
 }
 
 @media only screen and (min-width: 300px) and (max-width: 1000px) {
 
    header {
       position: relative;
-      height: 800px !important;
+      height: 100% !important;
       background: #161415 url(../images/background.jpg) no-repeat left center;
       background-size: cover !important;
       -webkit-background-size: cover !important;
@@ -110,8 +109,12 @@ header .banner-text hr {
    }
    header .banner-text h1 {
    font: 100px/1.5em 'opensans-bold', sans-serif;
-   margin: 0 0 18px 0;
+   margin: auto;
+   width: 110% !important;
 
+   }
+   header .banner{
+      width: 80%;
    }
 }
 
