@@ -7,17 +7,19 @@ export default class Header extends Component {
       <header id="home">
          <div className="row banner">
             <div className="banner-text">
+              
                <h1 className="responsive-headline">I am Balu M N</h1>
                <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I'm a FullStack Developer and a freelancer.</h3>
                <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I like to experiment with frontend development and also learn new technologies. I love to spend my leisure hours learning, sharing knowledge or enjoying some yummy food.</h3>
             
                <hr/>
                <div className="feel-work">
-                <a href="mailto:balumn@ieee.org" target="_blank" rel="noopener noreferrer"><p>Feel free to contact me for work and suggestions</p></a>
+                <a href="mailto:balumn@ieee.org" target="_blank" rel="noopener noreferrer"><p>Feel free to contact me for works and suggestions</p></a>
                </div>
                <hr />
                <br/>
-               <a className="button resum" target="_blank" rel="noopener noreferrer" href="resume.pdf"><i className="fa fa-download"/>&nbsp;&nbsp;My Resume</a>
+
+               <a className="button resum" target="_blank" rel="noopener noreferrer" href="balumn.pdf"><i className="fa fa-download"/>&nbsp;&nbsp;My Resume</a>
             
                <ul className="social">
                   <li key="email">

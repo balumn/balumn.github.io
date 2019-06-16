@@ -31,7 +31,7 @@ export default  class Resume extends Component {
                     <div className="row item">
                        <div className="twelve columns">
                           <h3>Website of Viswajyothi College of Engineering</h3>
-                          <span>Freelancing &nbsp; &bull; &nbsp;</span> <em className="date">June 2019</em>
+                          <span><b>Freelancing</b> &nbsp; &bull; &nbsp;</span> <em className="date">June 2019</em>
                           <ul>
                             <li>Developed using ReactJS</li>
                             <li>Front-End Development</li>
@@ -44,8 +44,7 @@ export default  class Resume extends Component {
                     <div className="row item">
                        <div className="twelve columns">
                           <h3 style={{marginTop: 30}}>Parallel Downloading System in a LAN</h3>
-                          Academic Project
-                          <span> &nbsp; &bull; &nbsp;</span> <em className="date">March 2019</em>
+                          <span><b>Academic Project</b> &nbsp; &bull; &nbsp;</span> <em className="date">March 2019</em>
                           <ul>
                             <li>Lets you download your files by making use of multiple computers at the same time inside a local area network.</li>
                             <li>Developed using Python</li>
@@ -58,8 +57,7 @@ export default  class Resume extends Component {
                     <div className="row item">
                        <div className="twelve columns">
                           <h3 style={{marginTop: 30}}>Multi Cloud Storage Management Application</h3>
-                          Side Project
-                          <span> &nbsp; &bull; &nbsp;</span> <em className="date">Oct 2018</em>
+                          <span><b>Side Project</b> &nbsp; &bull; &nbsp;</span> <em className="date">Oct 2018</em>
                           <ul>
                             <li>An application that can access Google Drive files and DropBox files at the same time</li>
                             <li>Developed using Python Django</li>
@@ -71,8 +69,7 @@ export default  class Resume extends Component {
                     <div className="row item">
                        <div className="twelve columns">
                           <h3 style={{marginTop: 30}}>Farmers Fresh Zone Private Limited</h3>
-                          Intern
-                          <span> &nbsp; &bull; &nbsp;</span> <em className="date">May 2018 - July 2018</em>
+                          <span><b>Intern</b> &nbsp; &bull; &nbsp;</span> <em className="date">May 2018 - July 2018</em>
                           <ul>
                             <li>Developed a mobile app which can capture media offline and upload it when the device is online</li>
                             <li>Used Ionic framework over Apache Cordova</li>
