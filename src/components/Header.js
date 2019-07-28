@@ -11,7 +11,7 @@ export default class Header extends Component {
                <h1 className="responsive-headline">I am Balu M N</h1>
                <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I'm a FullStack Developer and a freelancer.</h3>
                <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I like to experiment with frontend development and also learn new technologies. I love to spend my leisure hours learning, sharing knowledge or enjoying some yummy food.</h3>
-            
+
                <hr/>
                <div className="feel-work">
                 <a href="mailto:balumn@ieee.org" target="_blank" rel="noopener noreferrer"><p>Feel free to contact me for works and suggestions</p></a>
@@ -19,7 +19,7 @@ export default class Header extends Component {
                <hr />
                <br/>
 
-               <a className="button resum" target="_blank" rel="noopener noreferrer" href="balumn.pdf"><i className="fa fa-download"/>&nbsp;&nbsp;My Resume</a>
+               <a className="button resum" target="_blank" rel="noopener noreferrer" href="https://balumn.github.io/blog/"><i className="fa fa-pencil"/>&nbsp;&nbsp;My Blog</a>
             
                <ul className="social">
                   <li key="email">
@@ -39,6 +39,9 @@ export default class Header extends Component {
                   </li>
                   <li key="fb">
                     <a href="https://www.fb.me/balu.m.nandakumar" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
+                  </li>
+                  <li key="resume">
+                    <a href="balumn.pdf" target="_blank" rel="noopener noreferrer" title="My Resume"><i className="fa fa-download"></i></a>
                   </li>
                </ul>
             </div>

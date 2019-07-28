@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import Header from './components/Header';
-import Resume from './components/Resume';
-import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+
 class App extends Component {
   render() {
     return (
       <div >
-        <Header />
-        <Resume />
-        <Footer />
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Portfolio} />
+          </Switch>
+        </Router>
       </div>
     );
   }
