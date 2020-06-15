@@ -366,7 +366,9 @@ header hr {
 	width: 95%;
 	float: left;
 	padding: 0;
-	text-align: left;
+   text-align: left;
+   background-color: yellow !important;
+   
 }
 .bars .skills {
   	margin-top: 36px;

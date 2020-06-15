@@ -8,8 +8,8 @@ class Portfolio extends Component {
     return (
       <div >
         <Header />
-        <Resume />
-        <Footer />
+        {/* <Resume /> */}
+        {/* <Footer /> */}
       </div>
     );
   }
