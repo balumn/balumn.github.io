@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Machine-readable / agent-oriented resources (safe to crawl and index)
+Allow: /llms.txt
+Allow: /agent-profile.json
+Allow: /sitemap.xml
+
+Sitemap: https://balumn.github.io/sitemap.xml
